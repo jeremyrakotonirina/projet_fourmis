@@ -18,7 +18,6 @@ Les principaux fichiers sont :
 - **`test.cpp`** : fichiers de test utilisant `doctest.h`.
 - **`makefile`** : script de compilation avec `make`.
 
-chaque composant (fourmis, colonie, grille, lieux, etc.) possède ses propres fichiers *.hpp / *.cpp.
 
 ## Prérequis
 

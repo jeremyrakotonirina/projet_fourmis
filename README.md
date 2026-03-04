@@ -18,6 +18,8 @@ Les principaux fichiers sont :
 - **`test.cpp`** : fichiers de test utilisant `doctest.h`.
 - **`makefile`** : script de compilation avec `make`.
 
+chaque composant (fourmis, colonie, grille, lieux, etc.) possède ses propres fichiers *.hpp / *.cpp.
+
 ## Prérequis
 
 - **Compilateur C++** compatible C++11 ou plus récent (par exemple `g++` ou `clang++`).
@@ -26,9 +28,9 @@ Les principaux fichiers sont :
 
 ## Compilation
 Depuis la racine du projet :
- 'make affichage' 
+- `make affichage`
 
- produit un fichier 'movie.gif' représentant la simulation et exécute également les tests.
+produit un fichier `movie.gif` représentant la simulation et exécute également les tests.
 
 
 
